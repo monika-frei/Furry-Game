@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Javascript Furry game</title>
+    <title>Furry game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet"> 
     <link rel='stylesheet' href='css/style.css'>
 
 </head>
 
 <body>
-
-  <section id='score'>
-    <div>
-      SCORE<br>
-      <strong>0</strong>
-    </div>
-  </section>
+  <div id="main">
+    <section id='score'>
+      <div>
+        SCORE<br>
+        <strong>0</strong>
+      </div>
+    </section>
 
 
 
@@ -121,9 +122,15 @@
     <div></div>
     <div></div>
   </section>
+  </div>
 
 
   <section id='over' class='invisible'>
+    <h1>Game over!</h1>
+    <p>Your score:
+      <span class="score"></span>
+    </p>
+    <button id = "play">Play again!</button>
 
   </section>
 

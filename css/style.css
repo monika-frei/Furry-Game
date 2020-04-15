@@ -5,23 +5,33 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FBFF00;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    
 }
 
 section#score {
   width: 100%;
+  letter-spacing: 1px;
 }
 
 #board {
-  width: 640px;
-  height: 640px;
+  width: 540px;
+  height: 540px;
   margin: 1em auto;
 }
 
 #board  > div {    
   border: 1px solid black;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 54px;
+  height: 54px;
 }
 
 
@@ -30,11 +40,12 @@ section#score div {
   height: 3em;
   text-align: center;
   padding: 0.5em;
-  background-color: rgba(211,211,211, 0.75);
-  border: 1px solid lightgray;
+  background-color:  #F7F272;
+  border: 2px solid #2F3538;
   border-radius: 1px;
-  box-shadow: 1px 1px 5px 1px lightgray;
   margin: 1em auto;
+  margin-bottom: 2em;
+  font-weight: 700;
 }
 
 
@@ -70,6 +81,43 @@ section#over pre {
   font-weight: bolder;
   color: brown;
 }
+
+section#over {
+  padding-top: 10%;
+}
+
+section#over p,
+section#over span {
+  margin:0 auto;
+  text-align: center;
+}
+
+section#over span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  display: block;
+}
+
+section#over button#play {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border:none;
+  background: none;
+  border: 3px solid #000;
+  cursor: pointer;
+}
+
+section#over button#play:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 
 .invisible {
   display: none;
