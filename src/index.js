@@ -1,3 +1,5 @@
+import "./main.css"
+
 //furry start position
 function Furry() {
     this.x = 0;

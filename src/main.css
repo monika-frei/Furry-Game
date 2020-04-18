@@ -48,16 +48,13 @@ section#score div {
   font-weight: 700;
 }
 
-
-
-
 .furry {
-  background-image: url('../images/furry.png');
+  background-image: url(./assets/images/furry.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .coin {
-  background-image: url('../images/coin.png');
+  background-image: url(./assets/images/coin.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
