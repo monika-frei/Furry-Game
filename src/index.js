@@ -152,6 +152,8 @@ playBtn.addEventListener('click',function(e) {
     document.addEventListener('keydown',function(e) {
         game2.turnFurry(e);
     })    
+
+    
     
 });
 
