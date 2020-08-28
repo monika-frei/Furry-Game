@@ -2,7 +2,7 @@
 
 Simple game created during course CodersLab. 
 
-##Technologies
+## Technologies:
 * JavaScript
 * HTML5
 * CSS3
